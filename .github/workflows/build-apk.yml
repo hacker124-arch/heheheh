@@ -18,7 +18,6 @@ jobs:
         with:
           distribution: temurin
           java-version: '17'
-          cache: gradle
 
       - name: Extract project ZIP
         run: |
